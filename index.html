@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tytuł strony</title>
+		<meta charset="utf-8" />
+	    <!-- USTAWIENIE VIEWPORT -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	    <meta name="description" content="Zagęszczarku Kraków">
+	    <meta name="author" content="Joanna Okrajni">
+	    <meta name="robots" content="index,follow" />
+
+	    <!--				Czcionki i style!					-->
+	    <link rel="Stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<nav>
+			<p class="logo">LOGOTYPE</p>
+			<div class="handle"><img src="menu.png" /></div>
+
+			<ul>
+				<a href="www.onet.pl"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Gallery</li></a>
+				<a href="#"><li>Contact</li></a>
+			</ul>
+		</nav>
+		<!--				FIRTS SECTION 					-->
+		<div class="header">
+			<h1>HEADING </h1>
+			<hr>
+			<a class="btn" href="#">Learn More</a>
+		</div>
+		<!--				SECOND SECTION 					-->
+		<div class="content">
+			<h2>LOREM IPSUM</h2>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<!--				THIRD SECTION 					-->
+		<div class="offer">
+			<div class="off-one"> 
+				<div id="first-box">
+					<h3> Lorem Ipsum</h3>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.
+					</P>
+				</div>
+			</div>
+			<div class="off-one">
+				<div id="second-box">
+					<h3> Lorem Ipsum</h3>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. </P>
+				</div>
+			</div>
+			<div class="off-one">
+				<div id="third-box">
+					<h3> Lorem Ipsum</h3>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.</P>
+				</div>
+			</div>
+			<div class="off-one">
+				<div id="fourth-box">
+					<h3> Lorem Ipsum</h3>
+					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. </P>
+				</div>
+			</div>
+		</div>
+		<!-- 					FOURTH SECTION - QUOTATION 		-->
+		<div class="quotation">
+			<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat."<span>-Dr. Jon Doe</span></p>
+		</div>
+		<div class="numbers">
+			<h2>Why this clinic?</h2>
+			<hr>
+			<div>
+				<div class="icon">
+					<div><p>10</p></div>
+					<hr>
+					<p>years experience</p>
+				</div>
+				<div class="icon">
+					<div><p>450</p></div>
+					<hr>
+					<p> treatments</p>
+				</div>
+				<div class="icon">
+					<div><p>380</p></div>
+					<hr>
+					<p>patients</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<footer>
+			<div class='stopka'>
+				<div>
+					<p>Address Krakow</p>
+				</div>
+				<div>
+					<p>Address Warsaw</p>
+				</div>
+				<div>
+					<p>SocialMedia</p>
+				</div>
+			</div>
+			<div class='copy'>
+				<div id="copy-one">Copyright © 2017</div>
+				<div id="copy-two"> Powered By LOGO</div>
+			</div>
+		</footer>
+
+
+
+		<script>
+			$('.handle').on('click', function() {
+				$('nav ul').toggleClass('showing');
+			});
+		</script>
+	</body>
+</html>
